@@ -1,0 +1,43 @@
+.home {
+  width: 100%;
+
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home_div {
+  width: 40%;
+  height: 50%;
+  margin: 10%;
+  background-color: #ffffff;
+  color: rgb(21, 20, 20);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.options {
+  display: flex;
+  gap: 20px;
+}
+
+.options div {
+  padding-top: 20%;
+  cursor: pointer;
+}
+.options div:hover {
+  text-decoration: underline;
+}
+
+#linkUsers{
+  padding-top: 20%;
+  color: rgb(21, 20, 20);
+  text-decoration-line: none;
+}
+
+#linkUsers:hover{
+  text-decoration:underline;
+}

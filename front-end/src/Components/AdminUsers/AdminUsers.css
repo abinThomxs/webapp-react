@@ -1,0 +1,107 @@
+.users {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table_div {
+  width: 60%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.table_div table {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.userDetails{
+  padding: 20px;
+}
+
+table img {
+  width: 100px;
+  height: 100px;
+}
+.search_div {
+  width: 30%;
+  align-self: center;
+  margin-bottom: 10px;
+}
+
+.search_div input {
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  font-size: large;
+  border: #17252a;
+  outline: auto;
+}
+
+.user_options {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.add_user {
+  padding: 10px;
+  font-weight: 500;
+  font-size: large;
+  color: #fff;
+  background-color: #17252a;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.user_table th td {
+  text-align: center;
+  padding: 10px;
+}
+
+table,
+th,
+td {
+  border: none;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.edit_user {
+  padding: 5px;
+  font-weight: 500;
+  font-size: large;
+  color: rgb(28, 26, 26);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit_user:hover{
+  background-color: #17252a;
+  color: #def2f1;
+}
+
+
+.delete_user {
+  padding: 5px;
+  font-weight: 500;
+  font-size: large;
+  color: rgb(28, 26, 26);
+
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete_user:hover{
+  background-color: #17252a;
+  color: #def2f1;
+}
+
+.edopstions {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}

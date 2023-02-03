@@ -27,7 +27,6 @@ function AdminUsers() {
   }, [success, auth]);
 
   const handleChange = (event) => {
-    console.log(event.target.value);
     setsearch(event.target.value);
     if (event.target.value !== "") {
       const newPacientes = users.filter((value) =>
